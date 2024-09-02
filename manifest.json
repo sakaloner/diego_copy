@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Diego Copier",
+  "version": "1.0",
+  "description": "Copies specific information from a website to the clipboard",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "action": {},
+  "icons": {
+    "16": "poo.png",
+    "32": "poo.png",
+    "48": "poo.png",
+    "128": "poo.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
